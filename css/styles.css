@@ -1,15 +1,13 @@
-.logo-logo {
-    float: left;
-    width: 60px;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+#logo {
+  height: 45px;
+  width: 80px;
+}
 
-  .usuario-perfil {
-    float: left;
-    width: 40px;
-    height: auto;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }  
+.custom-bg-header {
+  background-color:#2BC4FF;
+}
+
+.custom-border {
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
