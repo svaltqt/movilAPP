@@ -12,7 +12,8 @@
 }
 
 .custom-bg-footer2 {
-  background-color:#d5dde048;
+  background-color:rgba(4, 42, 43, 1);
+  
 }
 .custom-border {
   border-right: 1px solid #ccc;
@@ -20,9 +21,10 @@
 }
 
 .foto-custom-descripcion{
-  height: 500px;
-  width: 550px;
-  border-radius: 3%;
+  height: 483px;
+  width: 1090px;
+  margin-left: 15px;  
+  border-radius: 6%;
 }
 
 .texto-descripcion{
@@ -47,6 +49,10 @@
 
 .image-row {
   display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 33px;
+
 }
 
 .image-row img {
@@ -68,4 +74,8 @@
   list-style: disc;
   color: blue;
   padding-left: 0;
+}
+
+footer p, footer h6, footer a {
+  color: rgb(255, 255, 255);
 }
