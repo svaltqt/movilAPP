@@ -1,26 +1,51 @@
-#logo {
-  height: 85px;
-  width: 85px;
+/* Header */
+header p, header h6, header a {
+  color: rgb(0, 0, 0);
 }
 
-.custom-bg-header {
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-item {
+  margin-left: 40px;
+  
+  margin-top: 19px;
+}
+.nav-login {
+  margin-top: 27px;
+  margin-left: auto;
+}
+
+.nav-login .row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-login .btn {
+  margin-left: 20px;
+
+}
+
+#logo {
+  height: 80px;
+  width: 80px;
+}
+
+.header-bg-color {
   background-color:#ffffff;
 }
+/* FIN Header */
 
-.custom-bg-footer {
-  background-color:#bbecff;
-}
 
-.custom-bg-footer2 {
-  background-color:rgba(4, 42, 43, 1);
-  
-}
-.custom-border {
-  border-right: 1px solid #ccc;
-  padding-right: 10px;
-}
 
-.foto-custom-descripcion{
+
+
+
+
+
+/* Config Banner informacion principal*/
+.foto-info-ppal{
   position: flex;
   width: 1307px; 
   height: 483px;  
@@ -31,19 +56,10 @@
 
 }
 
-.texto-descripcion{
-  margin-top: 10px;
-  padding-top: 20px;
-  
- 
-}
 
-.foto-integrante{
-  height: 430px;
-  width: 250px;  
-}
-
+/* Config Servicios imagenes*/
 .image-row {
+  margin-top:5%;
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -51,6 +67,11 @@
   
 }
 
+.info-service{
+  margin-top:10%;  
+}
+
+/* Footer */
 .image-row img {
   flex: 1;
   max-width: 60%;
@@ -75,4 +96,9 @@
 
 footer p, footer h6, footer a {
   color: rgb(255, 255, 255);
+}
+
+.footer-bg-color {
+  background-color:rgba(4, 42, 43, 1);
+  
 }
