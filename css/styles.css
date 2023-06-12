@@ -4,7 +4,7 @@
 }
 
 .custom-bg-header {
-  background-color:#bbecff;
+  background-color:#ffffff;
 }
 
 .custom-bg-footer {
@@ -21,10 +21,14 @@
 }
 
 .foto-custom-descripcion{
-  height: 483px;
-  width: 1090px;
-  margin-left: 15px;  
-  border-radius: 6%;
+  position: flex;
+  width: 1307px; 
+  height: 483px;  
+  border-radius: 57px;
+  margin-top: -30px;
+  margin-left: -80px;
+  object-fit: cover;
+
 }
 
 .texto-descripcion{
@@ -32,14 +36,6 @@
   padding-top: 20px;
   
  
-}
-
-.foto-servicios{
-  height: 500px;
-  width: 550px;
-  border-radius: 3%;
-  margin-left: 25%;
-  border: 2px solid rgb(101, 132, 233);
 }
 
 .foto-integrante{
@@ -52,7 +48,7 @@
   justify-content: center;
   gap: 30px;
   margin-left: 33px;
-
+  
 }
 
 .image-row img {
@@ -62,7 +58,8 @@
   margin-right: 7%;
   border-radius: 8%;
   margin-top: 2.7%;
-  border: 2px solid rgb(101, 132, 233);
+  border: 2px solid rgba(244, 224, 77, 1);
+  transform: scale(1.2);
 }
 
 .iconos-redes{
