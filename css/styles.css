@@ -38,12 +38,6 @@ header p, header h6, header a {
 /* FIN Header */
 
 
-
-
-
-
-
-
 /* Config Banner informacion principal*/
 .foto-info-ppal{
   position: flex;
@@ -69,6 +63,98 @@ header p, header h6, header a {
 
 .info-service{
   margin-top:10%;  
+  margin-left: 5%;
+}
+
+/* Configuracion pasos*/
+
+.pasos-row {
+  margin-top:5%;  
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-left: 3px;  
+}
+
+
+.image-steps{
+  width: 340px;
+  height: 359px;
+  
+  border: 1px solid #F4E04D;
+  border-radius: 24px;
+}
+.titulo-pasos{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+.titulo-ppl-pasos{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 24px;
+  left: -40px;
+}
+.li-fix-mt{
+  margin-top: 10%;
+}
+.ul-fix-mt{
+  margin-top: 39px;
+}
+.sec-fix-mb{
+  margin-bottom: 8%;
+}
+.eclipse{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left:-15px;
+  top: 56px;
+  border-radius: 24px;
+  background: #F4E04D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eclipse2{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left:-15px;
+  top: 163px;
+  border-radius: 24px;
+  background: #F4E04D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eclipse3{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left:-15px;
+  top: 56px;
+  border-radius: 24px;
+  background: #F4E04D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.eclipse4{
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left:-15px;
+  top: 163px;
+  border-radius: 24px;
+  background: #F4E04D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Footer */
