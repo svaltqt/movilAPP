@@ -1,13 +1,71 @@
 #logo {
-  height: 45px;
-  width: 80px;
+  height: 85px;
+  width: 85px;
 }
 
 .custom-bg-header {
-  background-color:#2BC4FF;
+  background-color:#bbecff;
 }
 
+.custom-bg-footer {
+  background-color:#bbecff;
+}
+
+.custom-bg-footer2 {
+  background-color:#d5dde048;
+}
 .custom-border {
   border-right: 1px solid #ccc;
   padding-right: 10px;
+}
+
+.foto-custom-descripcion{
+  height: 500px;
+  width: 550px;
+  border-radius: 3%;
+}
+
+.texto-descripcion{
+  margin-top: 10px;
+  padding-top: 20px;
+  
+ 
+}
+
+.foto-servicios{
+  height: 500px;
+  width: 550px;
+  border-radius: 3%;
+  margin-left: 25%;
+  border: 2px solid rgb(101, 132, 233);
+}
+
+.foto-integrante{
+  height: 430px;
+  width: 250px;  
+}
+
+.image-row {
+  display: flex;
+}
+
+.image-row img {
+  flex: 1;
+  max-width: 60%;
+  height: auto;
+  margin-right: 7%;
+  border-radius: 8%;
+  margin-top: 2.7%;
+  border: 2px solid rgb(101, 132, 233);
+}
+
+.iconos-redes{
+  height: 40px;
+  width: 40px;  
+}
+
+.parrafo-descripcion {
+  list-style: disc;
+  color: blue;
+  padding-left: 0;
 }
