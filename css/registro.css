@@ -1,0 +1,73 @@
+/* Header */
+header p, header h6, header a {
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 40px;
+    
+    margin-top: 19px;
+  }
+  .nav-login {
+    margin-top: 27px;
+    margin-left: auto;
+  }
+  
+  .nav-login .row {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-login .btn {
+    margin-left: 20px;
+  
+  }
+  
+  #logo {
+    height: 80px;
+    width: 80px;
+  }
+  
+  .header-bg-color {
+    background-color:#ffffff;
+  }
+  /* FIN Header */
+  
+  
+  
+  /* Footer */
+  .image-row img {
+    flex: 1;
+    max-width: 60%;
+    height: auto;
+    margin-right: 7%;
+    border-radius: 8%;
+    margin-top: 2.7%;
+    border: 2px solid rgba(244, 224, 77, 1);
+    transform: scale(1.2);
+  }
+  
+  .iconos-redes{
+    height: 40px;
+    width: 40px;  
+  }
+  
+  .parrafo-descripcion {
+    list-style: disc;
+    color: blue;
+    padding-left: 0;
+  }
+  
+  footer p, footer h6, footer a {
+    color: rgb(255, 255, 255);
+  }
+  
+  .footer-bg-color {
+    background-color:rgba(4, 42, 43, 1);
+    
+  }
+  
