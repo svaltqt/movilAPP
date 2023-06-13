@@ -1,3 +1,13 @@
+/* Dark mode*/
+body.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+.oscurin button {
+  position: absolute;
+  right: 279px;
+  top: 26px;
+}
 /* Header */
 header p, header h6, header a {
     color: rgb(0, 0, 0);

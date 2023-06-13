@@ -1,6 +1,8 @@
 $(document).ready(function()
         { 
-
+            $('#oscurin').click(function() {
+                $('body').toggleClass('dark-mode');
+              });
             
             $("#salir").click(function()
             {  window.location.href = "./index.html";

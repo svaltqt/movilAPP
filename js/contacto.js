@@ -8,4 +8,8 @@ $(document).ready(function()
             $("#ingresar").click(function()
             {  window.location.href = "./settings.html";
             });
+
+            $('#oscurin').click(function() {
+                $('body').toggleClass('dark-mode');
+              });
         });

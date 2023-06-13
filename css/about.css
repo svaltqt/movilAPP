@@ -1,3 +1,13 @@
+/* Dark mode*/
+body.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+.oscurin button {
+  position: absolute;
+  right: 279px;
+  top: 26px;
+}
 /* Header */
 header p, header h6, header a {
     color: rgb(0, 0, 0);
@@ -67,9 +77,20 @@ header p, header h6, header a {
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    line-height: 24px;
-    
+    line-height: 24px;    
   }
+
+  .titulo-comentario{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom:30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;    
+  }
+
   .text-fix{
     margin-left: 5%;
     
