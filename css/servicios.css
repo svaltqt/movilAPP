@@ -1,0 +1,324 @@
+/* Header */
+header p, header h6, header a {
+    color: rgb(0, 0, 0);
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 40px;
+    
+    margin-top: 19px;
+  }
+  .nav-login {
+    margin-top: 27px;
+    margin-left: auto;
+  }
+  
+  .nav-login .row {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-login .btn {
+    margin-left: 20px;
+  
+  }
+  
+  #logo {
+    height: 80px;
+    width: 80px;
+  }
+  
+  .header-bg-color {
+    background-color:#ffffff;
+  }
+  /* FIN Header */
+  
+  
+  /* Config Banner informacion principal*/
+  .foto-info-ppal{
+    position: flex;
+    width: 707px; 
+    height: 283px;  
+    border-radius: 57px;
+    margin-top: -30px;
+    margin-left: 0px;
+    object-fit: cover;
+  
+  }
+  
+
+  
+  
+  /* Config Servicios imagenes*/
+  .image-row {
+    margin-top:5%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 33px;
+    
+  }
+  
+  .info-service{
+    margin-top:10%;  
+    margin-left: 5%;
+  }
+  
+  /* Configuracion pasos*/
+  
+  .pasos-row {
+    margin-top:5%;  
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-left: 3px;  
+  }
+  
+  
+  .image-steps{
+    width: 340px;
+    height: 359px;    
+    border: 1px solid #F4E04D;
+    border-radius: 24px;
+  }
+  .titulo-pasos{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .titulo-ppl-pasos{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    margin-left: 25px;
+  }
+  .li-fix-mt{
+    margin-top: 10%;
+  }
+  .ul-fix-mt{
+    margin-top: 39px;
+  }
+  .sec-fix-mb{
+    margin-bottom: 10%;
+  }
+  .eclipse{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 52px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse2{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 110px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse3{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 200px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse4{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 290px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse5{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 360px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .eclipse6{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 76px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse7{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 166px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse8{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 250px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse9{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 61px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse10{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 150px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse11{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 250px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse12{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 350px;
+    border-radius: 24px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse13{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 61px;
+    border-radius: 29px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse14{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 161px;
+    border-radius: 29px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .eclipse15{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left:-15px;
+    top: 320px;
+    border-radius: 29px;
+    background: #F4E04D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Footer */
+  .image-row img {
+    flex: 1;
+    max-width: 60%;
+    height: auto;
+    margin-right: 20%;
+    border-radius: 8%;
+    margin-top: 2.7%;
+    border: 2px solid rgba(244, 224, 77, 1);
+    transform: scale(1.2);
+  }
+  
+  .iconos-redes{
+    height: 40px;
+    width: 40px;  
+  }
+  
+  .parrafo-descripcion {
+    list-style: disc;
+    color: blue;
+    padding-left: 0;
+  }
+  
+  footer p, footer h6, footer a {
+    color: rgb(255, 255, 255);
+  }
+  
+  .footer-bg-color {
+    background-color:rgba(4, 42, 43, 1);
+    
+  }
+  
