@@ -6,7 +6,7 @@ $(document).ready(function()
             {  window.location.href = "./index.html";
             });
 
-        // Modal Cuenta    
+    // Modal Cuenta    
             $("#abrirCuenta").click(function() {
                 $("#modalCuenta").show();
             });       
@@ -21,7 +21,7 @@ $(document).ready(function()
                 $("#modalCuenta").hide();
             });
 
-        // Modal Contraseña    
+    // Modal Contraseña    
             $("#abrirContraseña").click(function() {
                 $("#modalContraseña").show();
             });       
@@ -36,7 +36,7 @@ $(document).ready(function()
                 $("#modalContraseña").hide();
             });
 
-        // Modal metodos de Pago    
+    // Modal Metodos de Pago    
             $("#abrirMetodosPago").click(function() {
                 $("#modalPago").show();
             });       
@@ -45,11 +45,20 @@ $(document).ready(function()
                 $("#modalPago").hide();
                 }
             });
-            $("#GuardarmetodoPago").click(function(event) {
+            $("#GuardarMetodoPago").click(function(event) {
                 event.preventDefault(); // Evitar el comportamiento predeterminado del botón
               // Aquí puedes realizar las acciones necesarias al hacer clic en el botón "Guardar"
                 $("#modalPago").hide();
             });
+    // Modal Historial    
+            $("#abrirHistorial").click(function() {
+                $("#modalHistorial").show();
+            });       
+            $(window).click(function(event) {
+                if (event.target == $("#modalHistorial")[0]) {
+                $("#modalHistorial").hide();
+                }
+            });          
             
 
               
