@@ -63,22 +63,22 @@
                     <h1 class="text-fix">Configuración</h1>
                     <div class="row mt-5 ">
                         <div class="form-group col-md-5">   
-                            <a href="" class="link-item">Cuenta</a>                     
+                            <a id="abrirCuenta">Cuenta</a>                     
                         </div>                      
                     </div>
                     <div class="row">
                         <div class="form-group col-md-5">   
-                            <a href="" class="link-item">Contraseña</a>                     
+                            <a href="">Contraseña</a>                     
                         </div>                         
                     </div>
                     <div class="row">
                         <div class="form-group col-md-5">   
-                            <a href="" class="link-item">Historial</a>                     
+                            <a href="">Historial</a>                     
                         </div>                         
                     </div>
                     <div class="row">
                         <div class="form-group col-md-5">   
-                            <a href="" class="link-item">Metodos de pago</a>                     
+                            <a href="">Metodos de pago</a>                     
                         </div>                         
                     </div>        
                 </form>                  
@@ -90,6 +90,50 @@
           </div>
     </section>
   </main>
+  <!-- Fin Main-->
+
+  <!-- MODALES DE LA CONFIGURACIN DE CUENTA-->
+
+  <div id="modalCuenta" class="modal">
+    <div class="modal-content">
+      <div class="container">
+        <h3 class="text-center">Cuenta</h3>
+
+        <div class="row">
+          <div class="col-md-5">
+            <form id="cuenta-form">
+              <div class="form-group">
+                <label for="inputName">Nombre</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Nombre/s">
+              </div>
+              <div class="form-group">
+                <label for="inputName">Nombre</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Nombre/s">
+              </div>
+            </form>
+          </div>
+          <div class="col-md-5">
+            <form id="cuenta-form">
+              <div class="form-group">
+                <label for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="miemail@correo.com">
+              </div>
+              <div class="form-group">
+                <label for="inputName">Nombre</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Nombre/s">
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 text-right">
+            <button type="submit" id="ingresar" class="btn btn-primary rounded-pill">Guardar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
 
   <!-- FOOTER -->
