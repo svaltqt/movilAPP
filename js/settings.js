@@ -6,27 +6,53 @@ $(document).ready(function()
             {  window.location.href = "./index.html";
             });
 
-            var modal = $("#modalCuenta");
-            var OpenModal = $("#abrirCuenta");            
-            var form = $("#cuenta-form");
-
-              OpenModal.click(function() {
-                modal.show();
-              });            
-              
-            
-              $(window).click(function(event) {
-                if (event.target == modal[0]) {
-                  modal.hide();
+        // Modal Cuenta    
+            $("#abrirCuenta").click(function() {
+                $("#modalCuenta").show();
+            });       
+            $(window).click(function(event) {
+                if (event.target == $("#modalCuenta")[0]) {
+                $("#modalCuenta").hide();
                 }
-              });
+            });
+            $("#GuardarCuenta").click(function(event) {
+                event.preventDefault(); // Evitar el comportamiento predeterminado del botón
+              // Aquí puedes realizar las acciones necesarias al hacer clic en el botón "Guardar"
+                $("#modalCuenta").hide();
+            });
+
+        // Modal Contraseña    
+            $("#abrirContraseña").click(function() {
+                $("#modalContraseña").show();
+            });       
+            $(window).click(function(event) {
+                if (event.target == $("#modalContraseña")[0]) {
+                $("#modalContraseña").hide();
+                }
+            });
+            $("#GuardarContraseña").click(function(event) {
+                event.preventDefault(); // Evitar el comportamiento predeterminado del botón
+              // Aquí puedes realizar las acciones necesarias al hacer clic en el botón "Guardar"
+                $("#modalContraseña").hide();
+            });
+
+        // Modal metodos de Pago    
+            $("#abrirMetodosPago").click(function() {
+                $("#modalPago").show();
+            });       
+            $(window).click(function(event) {
+                if (event.target == $("#modalPago")[0]) {
+                $("#modalPago").hide();
+                }
+            });
+            $("#GuardarmetodoPago").click(function(event) {
+                event.preventDefault(); // Evitar el comportamiento predeterminado del botón
+              // Aquí puedes realizar las acciones necesarias al hacer clic en el botón "Guardar"
+                $("#modalPago").hide();
+            });
             
-              form.submit(function(event) {
-                event.preventDefault(); // Evitar el envío del formulario
-                // Aquí puedes realizar las acciones necesarias al hacer clic en el botón "Guardar"
-                console.log("Formulario enviado");
-                modal.hide();
-              });
+
+              
 });
       
 
